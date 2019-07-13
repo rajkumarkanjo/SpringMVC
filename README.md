@@ -1,8 +1,8 @@
 # SpringMVC
 Spring MVC , RESTful , Complete CRUD operation.
 I have used postgres DB to save the user record. (it has migrated to H2 Database(in-memory) - http://localhost:8080/h2-console) )
-The user table name is = userjsp
-We can create a user and can assign the role : User , Admin
+The user table name is = userjsp (not required if you are using H2 Database)
+We can create an user and can assign the role : User , Admin
 if the user_role is 'admin' he can login from admin login page , and can perform all the CRUD operations.
 
 # Run the application
@@ -15,6 +15,7 @@ Now open the Link :-  http://localhost:8080/login
                       http://localhost:8080/adminlogin (Once You have created an user as user-role : Admin can login from here)
 
 CAN REFER HERE: https://github.com/rajkumarkanjo/Projects
+                Projects/SpringBoot_JSP/
 
 
 
